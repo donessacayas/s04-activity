@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>S04 Activity</title>
+</head>
+<body>
+	<header>
+		<h1>Zuitt IT Solutions</h1>
+	</header>
+
+	<section>
+		<h2>Products Offered</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Package</th>
+					<th>Price</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Basic</td>
+					<td>&#8369; 500.00</td>
+					<td>Package includes a fully functional website with desired specifications.</td>
+				</tr>
+
+				<tr>
+					<td>Premium</td>
+					<td>&#8369; 1000.00</td>
+					<td>Enjoy all the benefits of the basic package and also includes site support and maintainance.</td>
+				</tr>
+
+				<tr>
+					<td colspan="3" align="center"><strong>Additional features after initial project is inclusive of charges</strong></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</section>
+		<h2>Contact Form</h2>
+
+		<form>
+			<label for="firstName">First Name:</label>
+			<br>
+			<input type="text" name="firstName" id="firstName" required autocomplete>
+			<br>
+
+			<label for="lastName">Last Name:</label>
+			<br>
+			<input type="text" name="lastName" id="lastName" required autocomplete>
+			<br>
+
+			<label for="emailAddress">Email Address:</label>
+			<br>
+			<input type="email" name="emailAddress" id="emailAdress" required autocomplete>
+			<br>
+
+			<label for="contactNumber">Contact Number:</label>
+			<br>
+			<input type="number" name="contactNumber" id="contactNumber" required autocomplete>
+			<br>
+
+			<label for="serviceType">Service Type:</label>
+			<br>
+			<select name="serviceType" id="serviceType">
+				<option value="Front End Programming">Front End Programming</option>
+				<option value="Back End Programming">Back End Programming</option>
+			</select>
+			<br>
+
+			<label for="preferredContact">Preferred Contact:</label>
+			<br>
+
+			<input type="checkbox" name="contact1" value="email" id="email">
+			<label for="contact1">Email</label>
+			<br>
+			<input type="checkbox" name="contact2" value="phone" id="phone">
+			<label for="contact2">Phone</label>
+			<br>
+
+			<label for="package">Package:</label>
+			<br>
+
+			<input type="radio" name="package" value="basic" id="basicPackage">
+			<label for="basic-input">Basic</label>
+			<br>
+			<input type="radio" name="package" value="premium" id="premiumPackage">
+			<label for="premium-input">Premium</label>
+			<br>
+
+			<label for="message">Message</label>
+			<br>
+			<textarea name="message" id="message" rows="5" cols="22"></textarea>
+			<br>
+
+			<button type="send">Send Inquiry</button>
+			<button type="reset">Reset</button>
+		</form>
+
+	<section>
+			
+	</section>
+	
+
+</body>
+</html>
